@@ -24,7 +24,7 @@ page = st.sidebar.selectbox("Menu", ["🏠 Home", "🔍 Predictor", "📊 Data &
 
 # Home
 if page == "🏠 Home":
-    st.subheader("Welcome to Airfoil Noise ML!")
+    st.subheader("Welcome")
     st.write("""
         🔸 Predict **Sound Pressure Level (SPL)** using machine learning.  
         🔸 Analyze airfoil data with interactive graphs.  
